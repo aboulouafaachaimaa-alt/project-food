@@ -21,21 +21,21 @@ export default function SavoryHome() {
       desc: 'Fresh Atlantic salmon with herb butter, perfectly seared to golden perfection',
       price: '$32',
       rating: 5,
-      image: '🐟'
+      image: '/Pan-Seared Salmon With Skin.jpg'
     },
     {
       name: 'Beef Wellington',
       desc: 'Premium beef tenderloin wrapped in mushroom duxelles and golden puff pastry',
       price: '$45',
       rating: 5,
-      image: '🥩'
+      image: '/Beef Wellington Recipe PDF _ Gourmet Dinner _ Holiday Main Course _ Step-by-Step Digital Cooking.jpg'
     },
     {
       name: 'Mediterranean Prawns',
       desc: 'Succulent prawns with aromatic herbs, served on a bed of saffron rice',
       price: '$38',
       rating: 5,
-      image: '🦐'
+      image: '/prawns.jpg'
     }
   ];
 
@@ -203,8 +203,13 @@ export default function SavoryHome() {
                   transitionDelay: `${idx * 0.2}s`
                 }}
               >
-                <div className="h-48 bg-gradient-to-br from-amber-900/30 to-orange-900/30 flex items-center justify-center text-8xl group-hover:scale-110 transition-transform duration-500">
-                  {dish.image}
+                <div className="relative h-48 bg-gradient-to-br from-slate-800 to-slate-900 overflow-hidden group-hover:shadow-inner transition-all duration-500">
+                  <img 
+                    src={dish.image} 
+                    alt={dish.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-60"></div>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
