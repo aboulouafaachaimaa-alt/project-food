@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="80" viewBox="0 0 280 80" role="img" aria-labelledby="savoryLogoTitle">
+  <title id="savoryLogoTitle">Savory — Luxury Dining</title>
+  <defs>
+    <linearGradient id="goldGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFD37A" />
+      <stop offset="60%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+    <linearGradient id="whiteSoft" x1="0" x2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.85" />
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="g" />
+      <feMerge>
+        <feMergeNode in="g" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Emblem: rounded square with monogram mark -->
+  <g transform="translate(8,8)">
+    <rect x="0" y="0" width="64" height="64" rx="12" fill="#071133" />
+    <circle cx="32" cy="32" r="24" fill="url(#goldGrad)" filter="url(#softGlow)" />
+
+    <!-- Fork & Leaf monogram inspired by Looka style -->
+    <g transform="translate(18,14) scale(0.95)">
+      <!-- fork tines -->
+      <path d="M3 2v14M7 2v14M11 2v14" stroke="#071133" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- handle -->
+      <path d="M0 14c6 4 12 4 16 0" stroke="#071133" stroke-width="1.6" stroke-linecap="round" fill="none" />
+      <!-- leaf stroke to form an 'S' curve -->
+      <path d="M16 4c6 4 6 12 0 16" stroke="#071133" stroke-width="1.4" stroke-linecap="round" fill="none" />
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(88,48)">
+    <text x="0" y="-8" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="url(#whiteSoft)">Savory</text>
+    <text x="0" y="12" font-family="Inter, system-ui, Arial, sans-serif" font-size="11" fill="#9CA3AF">Luxury Dining</text>
+  </g>
+
+</svg>

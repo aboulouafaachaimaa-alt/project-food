@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Truffle Arancini",
+    "cat": "Appetizers",
+    "desc": "Crisp saffron risotto, fontina, truffle oil",
+    "price": "$14",
+    "rating": 5,
+    "tags": ["chef"],
+    "img": "/Images/Truffle Arancini.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Smoked Burrata",
+    "cat": "Appetizers",
+    "desc": "Heirloom tomatoes, basil oil, aged balsamic",
+    "price": "$16",
+    "rating": 5,
+    "tags": ["vegetarian"],
+    "img": "/Images/Smoked Burrata.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Charred Octopus",
+    "cat": "Main Course",
+    "desc": "Citrus salsa, fingerling potatoes",
+    "price": "$28",
+    "rating": 5,
+    "tags": ["chef"],
+    "img": "/Images/Charred Octopus.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Pan-Seared Sea Bass",
+    "cat": "Main Course",
+    "desc": "Lemon beurre blanc, seasonal greens",
+    "price": "$36",
+    "rating": 5,
+    "tags": ["fish"],
+    "img": "/Images/Pan-Seared Sea Bass.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Wagyu Striploin",
+    "cat": "Main Course",
+    "desc": "Red wine jus, truffle pomme purée",
+    "price": "$52",
+    "rating": 5,
+    "tags": ["chef"],
+    "img": "/Images/Wagyu Striploin.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Spicy Lamb Ribs",
+    "cat": "Appetizers",
+    "desc": "Harissa glaze, pickled fennel",
+    "price": "$18",
+    "rating": 4,
+    "tags": ["spicy"],
+    "img": "/Images/Spicy Lamb Ribs.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Chocolate Soufflé",
+    "cat": "Desserts",
+    "desc": "Valrhona chocolate, vanilla crème",
+    "price": "$12",
+    "rating": 5,
+    "tags": ["chef"],
+    "img": "/Images/Chocolate Soufflé.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Citrus Panna Cotta",
+    "cat": "Desserts",
+    "desc": "Candied orange, shortbread crumble",
+    "price": "$11",
+    "rating": 4,
+    "tags": ["vegetarian"],
+    "img": "/Images/Citrus Panna Cotta.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Signature Espresso Martini",
+    "cat": "Beverages",
+    "desc": "House espresso, vodka, coffee liqueur",
+    "price": "$14",
+    "rating": 5,
+    "tags": [],
+    "img": "/Images/Signature Espresso Martini.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ginger Citrus Spritz",
+    "cat": "Beverages",
+    "desc": "Sparkling wine, ginger, blood orange",
+    "price": "$12",
+    "rating": 4,
+    "tags": ["vegetarian"],
+    "img": "/Images/Yuzu Ginger Spritz – Zesty Citrus-Ginger Sparkler.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Herb-Crusted Halibut",
+    "cat": "Main Course",
+    "desc": "Brown butter, caper-raisin emulsion",
+    "price": "$38",
+    "rating": 5,
+    "tags": ["fish"],
+    "img": "/Images/Herb Crusted Halibut.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Burnt Honey Gelato",
+    "cat": "Desserts",
+    "desc": "Smoky honey, caramel shards",
+    "price": "$10",
+    "rating": 4,
+    "tags": ["vegetarian"],
+    "img": "/Images/Burnt Honey Gelato.jpg"
+  }
+]
